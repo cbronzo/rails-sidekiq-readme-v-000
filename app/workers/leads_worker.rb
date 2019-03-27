@@ -1,3 +1,5 @@
+require 'csv'
+
 class LeadsWorker
   require 'csv'
   include Sidekiq::Worker
